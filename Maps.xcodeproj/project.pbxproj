@@ -12,6 +12,7 @@
 		18ED39101C8492D90060C6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED390E1C8492D90060C6C5 /* Main.storyboard */; };
 		18ED39121C8492DA0060C6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ED39111C8492DA0060C6C5 /* Assets.xcassets */; };
 		18ED39151C8492DA0060C6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED39131C8492DA0060C6C5 /* LaunchScreen.storyboard */; };
+		18ED391D1C84A21C0060C6C5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ED391C1C84A21C0060C6C5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18ED39111C8492DA0060C6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18ED39141C8492DA0060C6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18ED39161C8492DA0060C6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED391C1C84A21C0060C6C5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ED391D1C84A21C0060C6C5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		18ED38FE1C8492D50060C6C5 = {
 			isa = PBXGroup;
 			children = (
+				18ED391C1C84A21C0060C6C5 /* CoreLocation.framework */,
 				18ED39091C8492D80060C6C5 /* Maps */,
 				18ED39081C8492D80060C6C5 /* Products */,
 			);
